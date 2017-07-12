@@ -1,1 +1,9 @@
-.body{background-color: aqua;}
+.jumbotron {
+    padding: 15px !important;
+    margin: 15px !important;
+}
+
+.well {
+    padding: 10px !important;
+    margin: 10px !important;
+}

@@ -1,36 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-  <meta name="author" content="John Doe">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Website template</title>
     <link rel="stylesheet" href="./main.css">
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+   <nav class="navbar navbar-inverse">
+     <div class="container-fluid">
+      <div class="navbar-header">
+          <a href="#" class="navbar-brand">logo</a></div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+              <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="mynavbar">
+       <ul class="nav navbar-nav">
+           <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+             <li><a href="#">News</a></li>
+            <li><a href="#">Cricket</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle=dropdown>My Friends<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">priya</a></li>
+                <li><a href="#">monu</a></li>
+                <li><a href="#">pihu</a></li>
+            </ul>
+            
+            
+            </li>
+             <li><a href="#">Contact Us</a></li>
+       </ul>
+       <ul class="nav navbar-nav navbar-right">
+           <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign UP</a></li>
+           <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+       </ul>
+         </div>
+     </div>  
+       
+   </nav>
     <div class="container">
-        <div class="row">
+        <div class="row jumbotron">
             <div class="col-md-8">
-            <h3>This is my website</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus. Quisque ut volutpat nunc. Suspendisse placerat tellus felis, sit amet cursus nisl ultricies id. Integer gravida ligula risus, nec pharetra mi finibus non. Praesent tincidunt risus blandit est sollicitudin luctus. Etiam varius urna dolor, quis condimentum justo vestibulum aliquet. Maecenas ut dolor molestie, condimentum nisi efficitur, venenatis tortor.</div>
+                <h3>This is my website</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus. Quisque ut volutpat nunc. Suspendisse placerat tellus felis, sit amet cursus nisl ultricies id. Integer gravida ligula risus, nec pharetra mi finibus non. Praesent tincidunt risus blandit est sollicitudin luctus. Etiam varius urna dolor, quis condimentum justo vestibulum aliquet. Maecenas ut dolor molestie, condimentum nisi efficitur, venenatis tortor.</div>
             <div class="col-md-4">
-                <img src="./images/1.jpg" alt="">
-                
-                
+                <img src="./images/1.jpg" alt="" class="img-responsive img-thumbnail">
+
             </div>
-        </div> 
+        </div>
+        <div class="row well">
+            <div class="col-md-12">
+                <h3>Welcome to my website...</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8" style="text-align:justify;">
+                <p><img src="./images/2.jpg" alt="" class="img-responsive img-thumbnail" align="left" vspace="5" hspace="5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus. Quisque ut volutpat nunc. Suspendisse placerat tellus felis, sit amet cursus nisl ultricies id. Integer gravida ligula risus, nec pharetra mi finibus non. Praesent tincidunt risus blandit est sollicitudin luctus. Etiam varius urna dolor, quis condimentum justo vestibulum aliquet. Maecenas ut dolor molestie, condimentum nisi efficitur, venenatis tortor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus. Quisque ut volutpat nunc. Suspendisse placerat tellus felis, sit amet cursus nisl ultricies id. Integer gravida ligula risus, nec pharetra mi finibus non. Praesent tincidunt risus blandit est sollicitudin luctus. Etiam varius urna dolor, quis condimentum justo vestibulum aliquet. Maecenas ut dolor molestie, condimentum nisi ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus. Quisque ut volutpat nunc. Suspendisse placerat tellus felis, sit amet cursus nisl ultricies id. Integer gravida ligula risus, nec pharetra mi finibus non. Praesent tincidunt risus blandit est sollicitudin luctus. Etiam varius urna dolor, quis condimentum justo vestibulum aliquet. Maecenas ut dolor molestie, condimentum nisi ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus. Quisque ut volutpat nunc. Suspendisse placerat tellus felis, sit amet cursus nisl ultricies id. Integer gravida ligula risus, nec pharetra mi finibus non. Praesent tincidunt risus blandit est sollicitudin luctus. Etiam varius urna dolor, quis condimentum justo vestibulum aliquet. Maecenas ut dolor molestie, condimentum nisi ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus. Quisque ut volutpat nunc. Suspendisse placerat tellus felis, sit amet cursus nisl ultricies id. Integer gravida ligula risus, nec pharetra mi finibus non. Praesent tincidunt risus blandit est sollicitudin luctus. Etiam varius urna dolor, quis condimentum justo vestibulum aliquet. Maecenas ut dolor molestie, condimentum nisi  </p>
+            </div>
+
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+
+                    <div class="panel-heading">Latest News</div>
+
+                    <div class="panel-body">
+                        <p><img src="./images/3.jpg" alt="" class="img-responsive img-thumbnail" width="100" align="left" vspace="3" hspace="3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus.</p>
+                    </div>
+                    <div class="panel-body">
+                        <p><img src="./images/2.jpg" alt="" class="img-responsive img-thumbnail" width="100" align="left" vspace="3" hspace="3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus.</p>
+                    </div>
+
+                    <div class="panel-body">
+                        <p><img src="./images/3.jpg" alt="" class="img-responsive img-thumbnail" width="100" align="left" vspace="3" hspace="3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas nunc. Phasellus et pellentesque dolor. Nulla cursus a lorem a dapibus.</p>
+                    </div>
+
+                  
+
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4">
+                 <div class="panel panel-primary">
+                     <div class="panel-heading"><h3>panel1</h3></div>
+                     <div class="panel-body bg-success"><p><img src="./images/2.jpg" alt="" class="img-responsive img-thumbnail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas</p> </div>
+                 </div>
+                   
+                </div>
+                <div class="col-md-4"><div class="panel panel-success">
+                     <div class="panel-heading"><h3>panel2</h3></div>
+                     <div class="panel-body bg-info"><p><img src="./images/3.jpg" alt="" class="img-responsive img-thumbnail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestasabitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> </div>
+                 </div></div>
+                 
+                <div class="col-md-4">
+                   <div class="panel panel-default">
+                     <div class="panel-heading"><h3>panel3</h3></div>
+                     <div class="panel-body bg-danger"><p><img src="./images/1.jpg" alt="" class="img-responsive img-thumbnail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius est sed vulputate euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In egestas tincidunt laoreet. Pellentesque ac egestas</p> </div>
+                 </div>
+                    </div> 
+                    </div>
+            </div>
+        </div>
     </div>
-    
+
 </body>
+
 </html>
